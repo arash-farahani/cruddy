@@ -3222,7 +3222,7 @@ class Cruddy.Entity.Instance extends Backbone.Model
     handleSyncEvent: (model, resp) ->
         @syncOriginalAttributes()
 
-        @setMetaFromResponse resp.model if resp?.model?
+        @setMetaFromResponse resp if resp?
 
         this
 
@@ -3268,7 +3268,7 @@ class Cruddy.Entity.Instance extends Backbone.Model
 
         super
 
-    parse: (resp) -> resp.model.attributes
+    parse: (resp) -> resp.attributes
 
     copy: ->
         copy = @entity.createInstance()
