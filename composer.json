@@ -1,5 +1,5 @@
 {
-    "name": "kalnoy/cruddy",
+    "name": "diamond/cruddy",
 
     "description": "Backend interface for handling CRUD operations on your Laravel Eloquent models.",
 
@@ -7,6 +7,10 @@
         {
             "name": "Alexander Kalnoy",
             "email": "lazychaser@gmail.com"
+        },
+        {
+            "name": "Arash Farahani",
+            "email": "arashmf71@gmail.com"
         }
     ],
 
@@ -16,7 +20,7 @@
 
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*",
+        "laravel/framework": "5.1.* | 5.2.* | 5.3.*",
         "intervention/image": "^2.3",
         "kalnoy/illuminate-menu": "~1.3"
     },
